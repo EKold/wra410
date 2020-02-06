@@ -1,18 +1,21 @@
-# Assignment: One HTML and CSS
+# Changes Made to Course Site
 
-For this assignment, you will clone Dr. John Monberg's wra410 repository.
+Required Changes
+----------------
+1. Changed background of body to a lighter gray - rbg(197, 197, 197) and changed the footer div color to make it look the same as the header at the top. the exact color is #18453b
+2. Changed the basic text font to Source Sans Pro and changed the font in the heading tags to PT Sans Caption.
+3. 
 
-You will update your README.md file so that I can learn about the changes you made.
 
-If I can't find your changes, I can't give you credit for them
-
-Revise the following section in your README.md file with a short description of what you've accomplished.
+Additional Changes made in Style.css
+---------
+1. Changed the "a" tag font size to large.
+2. Changed the color of the "a" tag font to #cb5a28;
+3. added a "#nav ul li" and made the padding on them 7px each for easier readability.
+4. In the "nav .selected", I added a text decoration of underline for easier comprehension of where the user is on the site.
+6. Changed the header and footer text color to #0db14b;
 
 ## Required Changes to WRA 410
-
-1. Make changes to the background color of a page and a div.
-
-2. Use a new font.
 
 3. Include two images.
 
