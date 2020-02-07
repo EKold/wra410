@@ -49,6 +49,10 @@ h1, h2, h3  {
   padding: 7px;
 }
 
+#nav ul li:hover {
+  font-weight: bold;
+}
+
 #nav .selected {
   font-weight: bold;
 
@@ -68,8 +72,22 @@ h1, h2, h3  {
   padding: 10px;
   background-color:  #d3d3d3;
   color: black;
-  text-align: left;
+  font-weight: 600;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+#student-group a {
+  color: #18453B;
+  padding:10px;
+}
+
+#student-group a:hover {
+  color: #0db14b;
+}
+
+
 
 #footer {
   clear: both;
@@ -117,4 +135,40 @@ table, th, td{
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
+}
+
+
+.head {
+  background-color: #18453B;
+  color: #0db14b;
+}
+
+#nave {
+  text-align: center;
+  background-color: #18453B;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+#nave ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+#nave ul li {
+  float: left;
+}
+
+#nave ul li a{
+  display: block;
+  text-align: center;
+  padding: 14px 14px;
+  color: #d3d3d3;
+}
+
+#nave ul li a:hover{
+  color: white;
 }

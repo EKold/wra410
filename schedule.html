@@ -5,11 +5,12 @@
   <style>
     .wrapper{
       display:grid;
-      grid-template-columns: 25% 40% 35%;
+      grid-template-columns: 1fr 1fr 1fr
     }
     .wrapper > div{
       background: #eee;
       padding:1em;
+      
     }
     .wrapper > div:nth-child(3n+2){
       background: #ddd;
@@ -17,9 +18,20 @@
 
   </style>
 </head>
-<body>
-  <h1><center><h1>WRA 410 Schedule</h1></center></h1>
+<body class="color">
+  <h1 class="head"><center><h1>WRA 410 Schedule</h1></center></h1>
+  <div id = "nave">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="policies.html">Policies</a></li>
+      <li><a class="selected" href="schedule.html">Schedule</a></li>
+      <li><a href="assignments.html">Assignments</a></li>
+      <li><a href="resources.html">Resources</a></li>
+      <li><a class="selected" href="groups.html">Groups</a></li>
+  </div>
   <div class = "wrapper">
+    
     <div class =schedule-date>
       Week 1 January 6, 8
     </div>
