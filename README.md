@@ -4,7 +4,12 @@ Required Changes
 ----------------
 1. Changed background of body to a lighter gray - rbg(197, 197, 197) and changed the footer div color to make it look the same as the header at the top. the exact color is #18453b
 2. Changed the basic text font to Source Sans Pro and changed the font in the heading tags to PT Sans Caption.
-3. 
+3. Added an MSU Spartan image to the left and right side of the header tags. Also added a photo of Dr. John Monberg on the Contact page.
+4. Used a table to format the grading scale on the Assignments page. Also added a title and made the points go in ascending order for easier readability.
+
+Additional Changes made in Html
+-------------------------------
+Added a link to the group page on every page to increase the accessibility of the site.
 
 
 Additional Changes made in Style.css
@@ -16,10 +21,6 @@ Additional Changes made in Style.css
 6. Changed the header and footer text color to #0db14b;
 
 ## Required Changes to WRA 410
-
-3. Include two images.
-
-4. Use a table to format the Grading Scale on the Assignments page.
 
 5. Reformat the Student Groups. Use a different color for links, add a title for each group, seperate each student. Use multiple columns for the divs.  
 
